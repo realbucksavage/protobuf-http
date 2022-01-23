@@ -1,0 +1,12 @@
+syntax = "proto3";
+option go_package = "proto/pb/greeterpb;greeterpb";
+
+package io.rbs.protobufhttp.greeter;
+
+message GreeterRequest {
+    string name = 1;
+}
+
+message GreeterResponse {
+    string greeting = 2;
+}
